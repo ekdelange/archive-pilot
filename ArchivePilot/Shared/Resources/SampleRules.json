@@ -1,0 +1,17 @@
+[
+  {
+    "id": "3E139171-26A3-4805-8EC6-158FCFF9B45B",
+    "name": "Invoices",
+    "when": {
+      "containsTokens": ["invoice", "total"],
+      "metadata": {},
+      "minimumConfidence": 0.95
+    },
+    "then": {
+      "destinationRelativePath": "/Invoices",
+      "filenameTemplate": "yyyy-MM-dd__Vendor__Amount"
+    },
+    "priority": 100,
+    "enabled": true
+  }
+]

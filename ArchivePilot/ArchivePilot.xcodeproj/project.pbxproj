@@ -1,0 +1,197 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {
+};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+B0001 /* ArchivePilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0001 /* ArchivePilotApp.swift */; };
+B0002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0002 /* HomeView.swift */; };
+B0003 /* ConfirmProposalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0101 /* ConfirmProposalView.swift */; };
+B0004 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0102 /* SettingsView.swift */; };
+B0005 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0103 /* PrivacyView.swift */; };
+B0006 /* FolderPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0104 /* FolderPickerView.swift */; };
+B0007 /* ShareFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0201 /* ShareFlowViewModel.swift */; };
+B0008 /* InboxFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0202 /* InboxFlowViewModel.swift */; };
+B0009 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0203 /* SettingsViewModel.swift */; };
+B0010 /* BookmarkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0301 /* BookmarkStore.swift */; };
+B0011 /* DirectoryIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0302 /* DirectoryIndexer.swift */; };
+B0012 /* TextExtractorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303 /* TextExtractorService.swift */; };
+B0013 /* NLPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0304 /* NLPService.swift */; };
+B0014 /* HeuristicClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0305 /* HeuristicClassifier.swift */; };
+B0015 /* FoundationLLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0306 /* FoundationLLMService.swift */; };
+B0016 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0307 /* OpenAIClient.swift */; };
+B0017 /* MoveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0308 /* MoveService.swift */; };
+B0018 /* ClassificationPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0309 /* ClassificationPipeline.swift */; };
+B0019 /* EmbeddingGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0401 /* EmbeddingGenerator.swift */; };
+B0020 /* FilenameSuggester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0402 /* FilenameSuggester.swift */; };
+B0021 /* ExtensionContextKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0403 /* ExtensionContextKey.swift */; };
+B0022 /* ArchiveRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501 /* ArchiveRule.swift */; };
+B0023 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0502 /* UserPreferences.swift */; };
+B0024 /* DirectoryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0503 /* DirectoryNode.swift */; };
+B0025 /* ClassificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0504 /* ClassificationResult.swift */; };
+B0026 /* PreferencesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0601 /* PreferencesStore.swift */; };
+B0027 /* RulesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0602 /* RulesStore.swift */; };
+B0028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0701 /* LaunchScreen.storyboard */; };
+B0029 /* SampleRules.json in Resources */ = {isa = PBXBuildFile; fileRef = F0702 /* SampleRules.json */; };
+B0030 /* MockFolderTree.json in Resources */ = {isa = PBXBuildFile; fileRef = F0703 /* MockFolderTree.json */; };
+B0031 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0801 /* ShareView.swift */; };
+B0032 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0802 /* ShareViewController.swift */; };
+B0033 /* ShareFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0201 /* ShareFlowViewModel.swift */; };
+B0034 /* BookmarkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0301 /* BookmarkStore.swift */; };
+B0035 /* DirectoryIndexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0302 /* DirectoryIndexer.swift */; };
+B0036 /* TextExtractorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303 /* TextExtractorService.swift */; };
+B0037 /* NLPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0304 /* NLPService.swift */; };
+B0038 /* HeuristicClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0305 /* HeuristicClassifier.swift */; };
+B0039 /* FoundationLLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0306 /* FoundationLLMService.swift */; };
+B0040 /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0307 /* OpenAIClient.swift */; };
+B0041 /* MoveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0308 /* MoveService.swift */; };
+B0042 /* ClassificationPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0309 /* ClassificationPipeline.swift */; };
+B0043 /* EmbeddingGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0401 /* EmbeddingGenerator.swift */; };
+B0044 /* FilenameSuggester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0402 /* FilenameSuggester.swift */; };
+B0045 /* ExtensionContextKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0403 /* ExtensionContextKey.swift */; };
+B0046 /* ArchiveRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0501 /* ArchiveRule.swift */; };
+B0047 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0502 /* UserPreferences.swift */; };
+B0048 /* DirectoryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0503 /* DirectoryNode.swift */; };
+B0049 /* ClassificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0504 /* ClassificationResult.swift */; };
+B0050 /* PreferencesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0601 /* PreferencesStore.swift */; };
+B0051 /* RulesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0602 /* RulesStore.swift */; };
+B0052 /* ClassificationPipelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0901 /* ClassificationPipelineTests.swift */; };
+B0053 /* ArchivePilotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1001 /* ArchivePilotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+P0001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = PROJ0001 /* Project object */; proxyType = 1; remoteGlobalIDString = T0001 /* ArchivePilot */; remoteInfo = ArchivePilot; };
+P0002 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = PROJ0001 /* Project object */; proxyType = 1; remoteGlobalIDString = T0002 /* ArchivePilotShare */; remoteInfo = ArchivePilotShare; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+F0000 /* ArchivePilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchivePilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+F0001 /* ArchivePilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivePilotApp.swift; sourceTree = "<group>"; };
+F0002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+F0003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+F0004 /* ArchivePilot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArchivePilot.entitlements; sourceTree = "<group>"; };
+F0005 /* ArchivePilotShare.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = ArchivePilotShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+F0006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+F0007 /* ArchivePilotShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArchivePilotShare.entitlements; sourceTree = "<group>"; };
+F0008 /* ArchivePilotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchivePilotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+F0009 /* ArchivePilotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchivePilotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+F0010 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+F0101 /* ConfirmProposalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmProposalView.swift; sourceTree = "<group>"; };
+F0102 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+F0103 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+F0104 /* FolderPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPickerView.swift; sourceTree = "<group>"; };
+F0201 /* ShareFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFlowViewModel.swift; sourceTree = "<group>"; };
+F0202 /* InboxFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxFlowViewModel.swift; sourceTree = "<group>"; };
+F0203 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+F0301 /* BookmarkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkStore.swift; sourceTree = "<group>"; };
+F0302 /* DirectoryIndexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryIndexer.swift; sourceTree = "<group>"; };
+F0303 /* TextExtractorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtractorService.swift; sourceTree = "<group>"; };
+F0304 /* NLPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPService.swift; sourceTree = "<group>"; };
+F0305 /* HeuristicClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeuristicClassifier.swift; sourceTree = "<group>"; };
+F0306 /* FoundationLLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationLLMService.swift; sourceTree = "<group>"; };
+F0307 /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
+F0308 /* MoveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveService.swift; sourceTree = "<group>"; };
+F0309 /* ClassificationPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationPipeline.swift; sourceTree = "<group>"; };
+F0401 /* EmbeddingGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddingGenerator.swift; sourceTree = "<group>"; };
+F0402 /* FilenameSuggester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilenameSuggester.swift; sourceTree = "<group>"; };
+F0403 /* ExtensionContextKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionContextKey.swift; sourceTree = "<group>"; };
+F0501 /* ArchiveRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveRule.swift; sourceTree = "<group>"; };
+F0502 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+F0503 /* DirectoryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryNode.swift; sourceTree = "<group>"; };
+F0504 /* ClassificationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationResult.swift; sourceTree = "<group>"; };
+F0601 /* PreferencesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesStore.swift; sourceTree = "<group>"; };
+F0602 /* RulesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesStore.swift; sourceTree = "<group>"; };
+F0701 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+F0702 /* SampleRules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleRules.json; sourceTree = "<group>"; };
+F0703 /* MockFolderTree.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockFolderTree.json; sourceTree = "<group>"; };
+F0801 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
+F0802 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+F0901 /* ClassificationPipelineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationPipelineTests.swift; sourceTree = "<group>"; };
+F1001 /* ArchivePilotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivePilotUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+FRAME0001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+FRAME0002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+FRAME0003 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+FRAME0004 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+GROOT /* Root */ = {isa = PBXGroup; children = (GAPP /* ArchivePilot */, GSHARE /* ArchivePilotShare */, GSHARED /* Shared */, GTESTS /* Tests */, GPROD /* Products */, GDOC /* Documentation */); sourceTree = "<group>"; };
+GAPP /* ArchivePilot */ = {isa = PBXGroup; children = (F0001 /* ArchivePilotApp.swift */, F0002 /* HomeView.swift */, GAPPVIEWS /* Views */, GAPPINF /* Supporting */); path = ArchivePilot; sourceTree = "<group>"; };
+GAPPVIEWS = {isa = PBXGroup; children = (F0101 /* ConfirmProposalView.swift */, F0102 /* SettingsView.swift */, F0103 /* PrivacyView.swift */, F0104 /* FolderPickerView.swift */); path = Views; sourceTree = "<group>"; };
+GAPPINF = {isa = PBXGroup; children = (F0701 /* LaunchScreen.storyboard */, F0003 /* Info.plist */, F0004 /* ArchivePilot.entitlements */); path = Supporting; sourceTree = "<group>"; };
+GSHARE /* ArchivePilotShare */ = {isa = PBXGroup; children = (F0801 /* ShareView.swift */, F0802 /* ShareViewController.swift */, GSHARESUP /* Supporting */); path = ArchivePilotShare; sourceTree = "<group>"; };
+GSHARESUP = {isa = PBXGroup; children = (F0006 /* Info.plist */, F0007 /* ArchivePilotShare.entitlements */); path = Supporting; sourceTree = "<group>"; };
+GSHARED /* Shared */ = {isa = PBXGroup; children = (GVM /* ViewModels */, GSVC /* Services */, GUTIL /* Utilities */, GMOD /* Models */, GPERS /* Persistence */, GRES /* Resources */); path = Shared; sourceTree = "<group>"; };
+GVM = {isa = PBXGroup; children = (F0201 /* ShareFlowViewModel.swift */, F0202 /* InboxFlowViewModel.swift */, F0203 /* SettingsViewModel.swift */); path = ViewModels; sourceTree = "<group>"; };
+GSVC = {isa = PBXGroup; children = (F0301 /* BookmarkStore.swift */, F0302 /* DirectoryIndexer.swift */, F0303 /* TextExtractorService.swift */, F0304 /* NLPService.swift */, F0305 /* HeuristicClassifier.swift */, F0306 /* FoundationLLMService.swift */, F0307 /* OpenAIClient.swift */, F0308 /* MoveService.swift */, F0309 /* ClassificationPipeline.swift */); path = Services; sourceTree = "<group>"; };
+GUTIL = {isa = PBXGroup; children = (F0401 /* EmbeddingGenerator.swift */, F0402 /* FilenameSuggester.swift */, F0403 /* ExtensionContextKey.swift */); path = Utilities; sourceTree = "<group>"; };
+GMOD = {isa = PBXGroup; children = (F0501 /* ArchiveRule.swift */, F0502 /* UserPreferences.swift */, F0503 /* DirectoryNode.swift */, F0504 /* ClassificationResult.swift */); path = Models; sourceTree = "<group>"; };
+GPERS = {isa = PBXGroup; children = (F0601 /* PreferencesStore.swift */, F0602 /* RulesStore.swift */); path = Persistence; sourceTree = "<group>"; };
+GRES = {isa = PBXGroup; children = (F0702 /* SampleRules.json */, F0703 /* MockFolderTree.json */); path = Resources; sourceTree = "<group>"; };
+GTESTS /* Tests */ = {isa = PBXGroup; children = (GUNIT /* ArchivePilotTests */, GUI /* ArchivePilotUITests */); path = Tests; sourceTree = "<group>"; };
+GUNIT = {isa = PBXGroup; children = (F0901 /* ClassificationPipelineTests.swift */); path = ArchivePilotTests; sourceTree = "<group>"; };
+GUI = {isa = PBXGroup; children = (F1001 /* ArchivePilotUITests.swift */); path = ArchivePilotUITests; sourceTree = "<group>"; };
+GPROD /* Products */ = {isa = PBXGroup; children = (F0000 /* ArchivePilot.app */, F0005 /* ArchivePilotShare.appex */, F0008 /* ArchivePilotTests.xctest */, F0009 /* ArchivePilotUITests.xctest */); name = Products; sourceTree = "<group>"; };
+GDOC = {isa = PBXGroup; children = (F0010 /* README.md */); name = Documentation; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+T0001 /* ArchivePilot */ = {isa = PBXNativeTarget; buildConfigurationList = CLT0001 /* Build configuration list for PBXNativeTarget "ArchivePilot" */; buildPhases = (SRC0001 /* Sources */, FRAME0001 /* Frameworks */, RES0001 /* Resources */); buildRules = ( ); dependencies = (DEP0002 /* PBXTargetDependency */); name = ArchivePilot; productName = ArchivePilot; productReference = F0000 /* ArchivePilot.app */; productType = "com.apple.product-type.application"; };
+T0002 /* ArchivePilotShare */ = {isa = PBXNativeTarget; buildConfigurationList = CLT0002 /* Build configuration list for PBXNativeTarget "ArchivePilotShare" */; buildPhases = (SRC0002 /* Sources */, FRAME0002 /* Frameworks */, RES0002 /* Resources */); buildRules = ( ); dependencies = ( ); name = ArchivePilotShare; productName = ArchivePilotShare; productReference = F0005 /* ArchivePilotShare.appex */; productType = "com.apple.product-type.app-extension"; };
+T0003 /* ArchivePilotTests */ = {isa = PBXNativeTarget; buildConfigurationList = CLT0003 /* Build configuration list for PBXNativeTarget "ArchivePilotTests" */; buildPhases = (SRC0003 /* Sources */, FRAME0003 /* Frameworks */, RES0003 /* Resources */); buildRules = ( ); dependencies = (DEP0001 /* PBXTargetDependency */); name = ArchivePilotTests; productName = ArchivePilotTests; productReference = F0008 /* ArchivePilotTests.xctest */; productType = "com.apple.product-type.bundle.unit-test"; };
+T0004 /* ArchivePilotUITests */ = {isa = PBXNativeTarget; buildConfigurationList = CLT0004 /* Build configuration list for PBXNativeTarget "ArchivePilotUITests" */; buildPhases = (SRC0004 /* Sources */, FRAME0004 /* Frameworks */, RES0004 /* Resources */); buildRules = ( ); dependencies = (DEP0003 /* PBXTargetDependency */); name = ArchivePilotUITests; productName = ArchivePilotUITests; productReference = F0009 /* ArchivePilotUITests.xctest */; productType = "com.apple.product-type.bundle.ui-testing"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+PROJ0001 /* Project object */ = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {T0001 = {DevelopmentTeam = YOURTEAMID; ProvisioningStyle = Automatic; }; T0002 = {DevelopmentTeam = YOURTEAMID; ProvisioningStyle = Automatic; }; T0003 = {DevelopmentTeam = YOURTEAMID; ProvisioningStyle = Automatic; }; T0004 = {DevelopmentTeam = YOURTEAMID; ProvisioningStyle = Automatic; }; }; }; buildConfigurationList = CLP0001 /* Build configuration list for PBXProject "ArchivePilot" */; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en); mainGroup = GROOT; productRefGroup = GPROD; projectDirPath = ""; projectRoot = ""; targets = (T0001, T0002, T0003, T0004); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+RES0001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (B0028 /* LaunchScreen.storyboard in Resources */, B0029 /* SampleRules.json in Resources */, B0030 /* MockFolderTree.json in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+RES0002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+RES0003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+RES0004 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+SRC0001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B0001, B0002, B0003, B0004, B0005, B0006, B0007, B0008, B0009, B0010, B0011, B0012, B0013, B0014, B0015, B0016, B0017, B0018, B0019, B0020, B0021, B0022, B0023, B0024, B0025, B0026, B0027); runOnlyForDeploymentPostprocessing = 0; };
+SRC0002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B0031, B0032, B0033, B0034, B0035, B0036, B0037, B0038, B0039, B0040, B0041, B0042, B0043, B0044, B0045, B0046, B0047, B0048, B0049, B0050, B0051); runOnlyForDeploymentPostprocessing = 0; };
+SRC0003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B0052); runOnlyForDeploymentPostprocessing = 0; };
+SRC0004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B0053); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+DEP0001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = T0001 /* ArchivePilot */; targetProxy = P0001; };
+DEP0002 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = T0002 /* ArchivePilotShare */; targetProxy = P0002; };
+DEP0003 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = T0001 /* ArchivePilot */; targetProxy = P0001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+CFGPROJDEBUG /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CURRENT_PROJECT_VERSION = 1; DEBUG_INFORMATION_FORMAT = dwarf; DEVELOPMENT_TEAM = YOURTEAMID; GCC_C_LANGUAGE_STANDARD = gnu11; IPHONEOS_DEPLOYMENT_TARGET = 18.4; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; };
+CFGPROJREL /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CURRENT_PROJECT_VERSION = 1; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; DEVELOPMENT_TEAM = YOURTEAMID; GCC_C_LANGUAGE_STANDARD = gnu11; IPHONEOS_DEPLOYMENT_TARGET = 18.4; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; VALIDATE_PRODUCT = YES; }; };
+CFGAPPDEBUG /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; ENABLE_PREVIEWS = YES; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilot; PRODUCT_NAME = "$(TARGET_NAME)"; PROVISIONING_PROFILE_SPECIFIER = ""; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; };
+CFGAPPREL /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilot; PRODUCT_NAME = "$(TARGET_NAME)"; PROVISIONING_PROFILE_SPECIFIER = ""; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; };
+CFGSHAREDEBUG /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = ArchivePilotShare/Supporting/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilot.share; PRODUCT_NAME = "$(TARGET_NAME)"; PROVISIONING_PROFILE_SPECIFIER = ""; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; };
+CFGSHAREREL /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = ArchivePilotShare/Supporting/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks"; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilot.share; PRODUCT_NAME = "$(TARGET_NAME)"; PROVISIONING_PROFILE_SPECIFIER = ""; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; };
+CFGTESTDEBUG /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilotTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchivePilot.app/ArchivePilot"; }; };
+CFGTESTREL /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilotTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchivePilot.app/ArchivePilot"; }; };
+CFGUITESTDEBUG /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilotUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = ArchivePilot; }; };
+CFGUITESTREL /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = YOURTEAMID; IPHONEOS_DEPLOYMENT_TARGET = 18.4; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.archivepilotUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_TARGET_NAME = ArchivePilot; }; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+CLP0001 /* Build configuration list for PBXProject "ArchivePilot" */ = {isa = XCConfigurationList; buildConfigurations = (CFGPROJDEBUG, CFGPROJREL); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+CLT0001 /* Build configuration list for PBXNativeTarget "ArchivePilot" */ = {isa = XCConfigurationList; buildConfigurations = (CFGAPPDEBUG, CFGAPPREL); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+CLT0002 /* Build configuration list for PBXNativeTarget "ArchivePilotShare" */ = {isa = XCConfigurationList; buildConfigurations = (CFGSHAREDEBUG, CFGSHAREREL); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+CLT0003 /* Build configuration list for PBXNativeTarget "ArchivePilotTests" */ = {isa = XCConfigurationList; buildConfigurations = (CFGTESTDEBUG, CFGTESTREL); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+CLT0004 /* Build configuration list for PBXNativeTarget "ArchivePilotUITests" */ = {isa = XCConfigurationList; buildConfigurations = (CFGUITESTDEBUG, CFGUITESTREL); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+};
+rootObject = PROJ0001 /* Project object */;
+}
