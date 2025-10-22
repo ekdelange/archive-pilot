@@ -1,0 +1,19 @@
+{
+  "roots": [
+    {
+      "id": "2E6C0A76-9F1F-4A0C-8089-54E0C05F7A1C",
+      "displayName": "Archive",
+      "relativePath": "/Archive",
+      "bookmarkData": "",
+      "children": [
+        {
+          "id": "0A2D961D-8A15-4F0B-9F54-647E95F0A8F4",
+          "displayName": "Invoices",
+          "relativePath": "/Archive/Invoices",
+          "bookmarkData": "",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
